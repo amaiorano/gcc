@@ -48,7 +48,7 @@ else
 endif
 
 # Set default set of languages to build frontends for.
-GCC_LANGUAGES ?= c
+GCC_LANGUAGES ?= c,c++
 
 # Set default gcc version to build.
 GCC_VERSION ?= $(shell cat ../gcc/BASE-VER)

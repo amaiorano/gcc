@@ -1987,7 +1987,7 @@ process_options (void)
   if (flag_signaling_nans)
     flag_trapping_math = 1;
 
-  /* We cannot reassociate if we want traps or signed zeros.  */
+  /* We cannot reassociate if we want traps or signed zeros. ï¿½*/
   if (flag_associative_math && (flag_trapping_math || flag_signed_zeros))
     {
       warning (0, "-fassociative-math disabled; other options take precedence");
